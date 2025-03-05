@@ -1,0 +1,26 @@
+==70490== Memcheck, a memory error detector
+==70490== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==70490== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==70490== Command: Resultados/Ana/pad/prog Resultados/Ana/pad/Casos/4
+==70490== Parent PID: 70489
+==70490== 
+==70490== 
+==70490== HEAP SUMMARY:
+==70490==     in use at exit: 242 bytes in 4 blocks
+==70490==   total heap usage: 27 allocs, 23 frees, 10,279 bytes allocated
+==70490== 
+==70490== 242 (32 direct, 210 indirect) bytes in 1 blocks are definitely lost in loss record 4 of 4
+==70490==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==70490==    by 0x10941C: CriaLesao (in /home/ana/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_13/Resultados/Ana/pad/prog)
+==70490==    by 0x109A7C: RodaPad (in /home/ana/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_13/Resultados/Ana/pad/prog)
+==70490==    by 0x10958D: main (in /home/ana/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_13/Resultados/Ana/pad/prog)
+==70490== 
+==70490== LEAK SUMMARY:
+==70490==    definitely lost: 32 bytes in 1 blocks
+==70490==    indirectly lost: 210 bytes in 3 blocks
+==70490==      possibly lost: 0 bytes in 0 blocks
+==70490==    still reachable: 0 bytes in 0 blocks
+==70490==         suppressed: 0 bytes in 0 blocks
+==70490== 
+==70490== For lists of detected and suppressed errors, rerun with: -s
+==70490== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

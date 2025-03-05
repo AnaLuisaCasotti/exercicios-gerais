@@ -1,0 +1,90 @@
+==116999== Memcheck, a memory error detector
+==116999== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==116999== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==116999== Command: Resultados/Ana/completo/prog Resultados/Ana/completo/Casos/2
+==116999== Parent PID: 116998
+==116999== 
+==116999== Invalid read of size 1
+==116999==    at 0x4853965: mempcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==116999==    by 0x48FE69F: _IO_default_xsputn (genops.c:386)
+==116999==    by 0x48FE69F: _IO_default_xsputn (genops.c:370)
+==116999==    by 0x48FCAD9: _IO_new_file_xsputn (fileops.c:1265)
+==116999==    by 0x48FCAD9: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==116999==    by 0x48EFA01: fwrite (iofwrite.c:39)
+==116999==    by 0x1095D5: SalvaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x109908: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==  Address 0x4a803bf is 1 bytes before a block of size 260 alloc'd
+==116999==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==116999==    by 0x109302: CriaAluno (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x1094D2: LeAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x1098F2: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999== 
+==116999== Invalid read of size 1
+==116999==    at 0x4853958: mempcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==116999==    by 0x48FE69F: _IO_default_xsputn (genops.c:386)
+==116999==    by 0x48FE69F: _IO_default_xsputn (genops.c:370)
+==116999==    by 0x48FCAD9: _IO_new_file_xsputn (fileops.c:1265)
+==116999==    by 0x48FCAD9: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==116999==    by 0x48EFA01: fwrite (iofwrite.c:39)
+==116999==    by 0x1095D5: SalvaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x109908: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==  Address 0x4a803be is 2 bytes before a block of size 260 alloc'd
+==116999==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==116999==    by 0x109302: CriaAluno (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x1094D2: LeAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x1098F2: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999== 
+==116999== Syscall param write(buf) points to uninitialised byte(s)
+==116999==    at 0x4985574: write (write.c:26)
+==116999==    by 0x48FC964: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1181)
+==116999==    by 0x48FB560: new_do_write (fileops.c:449)
+==116999==    by 0x48FB560: _IO_do_write@@GLIBC_2.2.5 (fileops.c:426)
+==116999==    by 0x48FAA0F: _IO_file_close_it@@GLIBC_2.2.5 (fileops.c:135)
+==116999==    by 0x48EE390: fclose@@GLIBC_2.2.5 (iofclose.c:53)
+==116999==    by 0x1095FD: SalvaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x109908: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==  Address 0x4a8079e is 110 bytes inside a block of size 4,096 alloc'd
+==116999==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==116999==    by 0x48EE1A4: _IO_file_doallocate (filedoalloc.c:101)
+==116999==    by 0x48FE513: _IO_doallocbuf (genops.c:347)
+==116999==    by 0x48FBF7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+==116999==    by 0x48FCA9E: _IO_new_file_xsputn (fileops.c:1244)
+==116999==    by 0x48FCA9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==116999==    by 0x48EFA01: fwrite (iofwrite.c:39)
+==116999==    by 0x1095D5: SalvaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x109908: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999== 
+==116999== Invalid write of size 8
+==116999==    at 0x10967E: CarregaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x10993A: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==  Address 0x4a81788 is 0 bytes after a block of size 24 alloc'd
+==116999==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==116999==    by 0x1092C9: CriaVetorAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x109923: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999== 
+==116999== Invalid read of size 8
+==116999==    at 0x109695: CarregaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x10993A: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==  Address 0x4a81788 is 0 bytes after a block of size 24 alloc'd
+==116999==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==116999==    by 0x1092C9: CriaVetorAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x109923: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999== 
+==116999== Invalid read of size 8
+==116999==    at 0x1096CB: CarregaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x10993A: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==  Address 0x4a81788 is 0 bytes after a block of size 24 alloc'd
+==116999==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==116999==    by 0x1092C9: CriaVetorAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999==    by 0x109923: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/completo/prog)
+==116999== 
+==116999== 
+==116999== HEAP SUMMARY:
+==116999==     in use at exit: 0 bytes in 0 blocks
+==116999==   total heap usage: 15 allocs, 15 frees, 19,196 bytes allocated
+==116999== 
+==116999== All heap blocks were freed -- no leaks are possible
+==116999== 
+==116999== Use --track-origins=yes to see where uninitialised values come from
+==116999== For lists of detected and suppressed errors, rerun with: -s
+==116999== ERROR SUMMARY: 228 errors from 6 contexts (suppressed: 0 from 0)

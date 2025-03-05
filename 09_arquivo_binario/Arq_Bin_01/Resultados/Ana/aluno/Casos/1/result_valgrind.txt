@@ -1,0 +1,132 @@
+==117819== Memcheck, a memory error detector
+==117819== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==117819== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==117819== Command: Resultados/Ana/aluno/prog Resultados/Ana/aluno/Casos/1
+==117819== Parent PID: 117818
+==117819== 
+==117819== Conditional jump or move depends on uninitialised value(s)
+==117819==    at 0x484F37F: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x10926A: CriaAluno (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109412: LeAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109820: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819== 
+==117819== Conditional jump or move depends on uninitialised value(s)
+==117819==    at 0x484F397: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x10926A: CriaAluno (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109412: LeAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109820: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819== 
+==117819== Conditional jump or move depends on uninitialised value(s)
+==117819==    at 0x484F37F: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x109281: CriaAluno (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109412: LeAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109820: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819== 
+==117819== Conditional jump or move depends on uninitialised value(s)
+==117819==    at 0x484F37F: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x10929B: CriaAluno (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109412: LeAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109820: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819== 
+==117819== Conditional jump or move depends on uninitialised value(s)
+==117819==    at 0x484F397: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x10929B: CriaAluno (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109412: LeAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109820: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819== 
+==117819== Conditional jump or move depends on uninitialised value(s)
+==117819==    at 0x484F37F: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x1092B5: CriaAluno (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109412: LeAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109820: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819== 
+==117819== Conditional jump or move depends on uninitialised value(s)
+==117819==    at 0x484F397: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x1092B5: CriaAluno (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109412: LeAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109820: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819== 
+==117819== Invalid read of size 1
+==117819==    at 0x4853965: mempcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x48FE69F: _IO_default_xsputn (genops.c:386)
+==117819==    by 0x48FE69F: _IO_default_xsputn (genops.c:370)
+==117819==    by 0x48FCAD9: _IO_new_file_xsputn (fileops.c:1265)
+==117819==    by 0x48FCAD9: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==117819==    by 0x48EFA01: fwrite (iofwrite.c:39)
+==117819==    by 0x109515: SalvaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109839: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==  Address 0x4a8025f is 1 bytes before a block of size 260 alloc'd
+==117819==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x109242: CriaAluno (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109412: LeAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109820: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819== 
+==117819== Invalid read of size 1
+==117819==    at 0x4853958: mempcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x48FE69F: _IO_default_xsputn (genops.c:386)
+==117819==    by 0x48FE69F: _IO_default_xsputn (genops.c:370)
+==117819==    by 0x48FCAD9: _IO_new_file_xsputn (fileops.c:1265)
+==117819==    by 0x48FCAD9: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==117819==    by 0x48EFA01: fwrite (iofwrite.c:39)
+==117819==    by 0x109515: SalvaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109839: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==  Address 0x4a8025e is 2 bytes before a block of size 260 alloc'd
+==117819==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x109242: CriaAluno (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109412: LeAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109820: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819== 
+==117819== Syscall param write(buf) points to uninitialised byte(s)
+==117819==    at 0x4985574: write (write.c:26)
+==117819==    by 0x48FC964: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1181)
+==117819==    by 0x48FB560: new_do_write (fileops.c:449)
+==117819==    by 0x48FB560: _IO_do_write@@GLIBC_2.2.5 (fileops.c:426)
+==117819==    by 0x48FAA0F: _IO_file_close_it@@GLIBC_2.2.5 (fileops.c:135)
+==117819==    by 0x48EE390: fclose@@GLIBC_2.2.5 (iofclose.c:53)
+==117819==    by 0x10953D: SalvaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109839: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==  Address 0x4a80620 is 80 bytes inside a block of size 4,096 alloc'd
+==117819==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x48EE1A4: _IO_file_doallocate (filedoalloc.c:101)
+==117819==    by 0x48FE513: _IO_doallocbuf (genops.c:347)
+==117819==    by 0x48FBF7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+==117819==    by 0x48FCA9E: _IO_new_file_xsputn (fileops.c:1244)
+==117819==    by 0x48FCA9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==117819==    by 0x48EFA01: fwrite (iofwrite.c:39)
+==117819==    by 0x109515: SalvaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109839: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819== 
+==117819== Invalid write of size 8
+==117819==    at 0x1095BE: CarregaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x10986E: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==  Address 0x4a81620 is 0 bytes after a block of size 16 alloc'd
+==117819==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x109209: CriaVetorAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109854: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819== 
+==117819== Invalid read of size 8
+==117819==    at 0x1095D5: CarregaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x10986E: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==  Address 0x4a81620 is 0 bytes after a block of size 16 alloc'd
+==117819==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x109209: CriaVetorAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109854: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819== 
+==117819== Invalid read of size 8
+==117819==    at 0x10960B: CarregaAlunosBinario (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x10986E: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==  Address 0x4a81620 is 0 bytes after a block of size 16 alloc'd
+==117819==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==117819==    by 0x109209: CriaVetorAlunos (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819==    by 0x109854: main (in /home/ana/exercicios-gerais/09_arquivo_binario/Arq_Bin_01/Resultados/Ana/aluno/prog)
+==117819== 
+==117819== 
+==117819== HEAP SUMMARY:
+==117819==     in use at exit: 0 bytes in 0 blocks
+==117819==   total heap usage: 13 allocs, 13 frees, 18,660 bytes allocated
+==117819== 
+==117819== All heap blocks were freed -- no leaks are possible
+==117819== 
+==117819== Use --track-origins=yes to see where uninitialised values come from
+==117819== For lists of detected and suppressed errors, rerun with: -s
+==117819== ERROR SUMMARY: 155 errors from 13 contexts (suppressed: 0 from 0)

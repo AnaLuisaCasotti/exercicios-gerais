@@ -1,0 +1,15 @@
+Digite o numero de alunos: Numero de bytes salvos: 2
+Aluno: 0
+Nome: ¨
+Data Nascimento: 
+Curso: 
+Periodo Ingresso: 
+% Conclusao do Curso: 0
+CRA: 0.00
+Aluno: 1
+Nome: 
+Data Nascimento: 
+Curso: 
+Periodo Ingresso: 
+% Conclusao do Curso: 0
+CRA: 11820382895077133910016.00

@@ -1,0 +1,26 @@
+==68487== Memcheck, a memory error detector
+==68487== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==68487== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==68487== Command: Resultados/Ana/completo/prog Resultados/Ana/completo/Casos/4
+==68487== Parent PID: 68486
+==68487== 
+==68487== 
+==68487== HEAP SUMMARY:
+==68487==     in use at exit: 242 bytes in 4 blocks
+==68487==   total heap usage: 27 allocs, 23 frees, 10,273 bytes allocated
+==68487== 
+==68487== 242 (32 direct, 210 indirect) bytes in 1 blocks are definitely lost in loss record 4 of 4
+==68487==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==68487==    by 0x1093C5: CriaLesao (in /home/ana/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_13/Resultados/Ana/completo/prog)
+==68487==    by 0x1099C3: RodaPad (in /home/ana/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_13/Resultados/Ana/completo/prog)
+==68487==    by 0x109586: main (in /home/ana/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_13/Resultados/Ana/completo/prog)
+==68487== 
+==68487== LEAK SUMMARY:
+==68487==    definitely lost: 32 bytes in 1 blocks
+==68487==    indirectly lost: 210 bytes in 3 blocks
+==68487==      possibly lost: 0 bytes in 0 blocks
+==68487==    still reachable: 0 bytes in 0 blocks
+==68487==         suppressed: 0 bytes in 0 blocks
+==68487== 
+==68487== For lists of detected and suppressed errors, rerun with: -s
+==68487== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

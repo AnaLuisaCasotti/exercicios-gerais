@@ -1,0 +1,7 @@
+pad.c: In function ‘RodaPad’:
+pad.c:37:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   37 |                 if (strcmp(GetCartaoSusPaciente(p->listapacientes[i]), cSus) == 0)
+      |                 ^~
+pad.c:39:21: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   39 |                     existePaciente = 1;
+      |                     ^~~~~~~~~~~~~~
