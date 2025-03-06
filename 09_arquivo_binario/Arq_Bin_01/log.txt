@@ -83,34 +83,34 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  -----
  - Pasta completo / Caso 1:
  - Arquivo de output gerado: Resultados/Ana/completo/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 13, frees: 13, errors: 144 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 10, frees: 5, errors: 151 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta completo / Caso 2:
  - Arquivo de output gerado: Resultados/Ana/completo/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 15, frees: 15, errors: 228 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 11, frees: 6, errors: 236 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta completo / Caso 3:
  - Arquivo de output gerado: Resultados/Ana/completo/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 19, frees: 19, errors: 304 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 13, frees: 8, errors: 312 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Nota para a pasta completo (máximo 3.33) - 0 de 30 - 0% de 3.33: 0.
  -----
  - Pasta aluno / Caso 1:
  - Arquivo de output gerado: Resultados/Ana/aluno/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 13, frees: 13, errors: 155 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 10, frees: 5, errors: 162 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta aluno / Caso 2:
  - Arquivo de output gerado: Resultados/Ana/aluno/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 15, frees: 15, errors: 239 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 11, frees: 6, errors: 247 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta aluno / Caso 3:
  - Arquivo de output gerado: Resultados/Ana/aluno/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 19, frees: 19, errors: 315 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 13, frees: 8, errors: 323 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Nota para a pasta aluno (máximo 3.34) - 0 de 30 - 0% de 3.34: 0.

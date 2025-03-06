@@ -86,14 +86,14 @@ void CarregaAlunosBinario(Aluno **alunos, char *fileName){
 
     alunosBin = fopen(fileName, "rb");
 
-    alunos[i] = (Aluno*) malloc(sizeof(Aluno));
-    while(fread(alunos[i], sizeof(Aluno), 1, alunosBin) == 1){
-        //printf("%s\n", alunos[i]->nome);
+    //alunos[i] = (Aluno*) malloc(sizeof(Aluno));
+    while(fread(&alunos[i], sizeof(Aluno), 1, alunosBin) == 1){
+        printf("%s\n", alunos[i]->nome);
         i++;
-        alunos[i] = (Aluno*) malloc(sizeof(Aluno));
+        //alunos[i] = (Aluno*) malloc(sizeof(Aluno));
     }
 
-    free(alunos[i]);
+    //free(alunos[i]);
 
     fclose(alunosBin);
 }
