@@ -1,0 +1,274 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Ana
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Ana:
+ - Diretório Resultados/Ana criado com sucesso!
+ - Diretório Resultados/Ana/main criado com sucesso!
+ - Diretório Resultados/Ana/completo criado com sucesso!
+ - Diretório Resultados/Ana/registro criado com sucesso!
+ - Diretório Resultados/Ana/jogador criado com sucesso!
+ - Diretório Resultados/Ana/servidor criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Ana/jogador.c' encontrado!
+ - Arquivo esperado 'Respostas/Ana/jogador.h' encontrado!
+ - Arquivo esperado 'Respostas/Ana/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Ana/registro.c' encontrado!
+ - Arquivo esperado 'Respostas/Ana/registro.h' encontrado!
+ - Arquivo esperado 'Respostas/Ana/servidor.c' encontrado!
+ - Arquivo esperado 'Respostas/Ana/servidor.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Ana/main
+ - Copiando os Includes/jogador.h Includes/registro.h Includes/servidor.h do professor para a pasta Resultados/Ana/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Ana/main
+ - Removendo o main.o do professor da pasta Resultados/Ana/main
+ - Copiando o Respostas/Ana/main.c do aluno para a pasta Resultados/Ana/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Ana/completo
+ - Copiando os Respostas/Ana/jogador.c do aluno para a pasta Resultados/Ana/completo
+ - Copiando os Respostas/Ana/jogador.h do aluno para a pasta Resultados/Ana/completo
+ - Copiando os Respostas/Ana/main.c do aluno para a pasta Resultados/Ana/completo
+ - Copiando os Respostas/Ana/registro.c do aluno para a pasta Resultados/Ana/completo
+ - Copiando os Respostas/Ana/registro.h do aluno para a pasta Resultados/Ana/completo
+ - Copiando os Respostas/Ana/servidor.c do aluno para a pasta Resultados/Ana/completo
+ - Copiando os Respostas/Ana/servidor.h do aluno para a pasta Resultados/Ana/completo
+ - Pasta registro:
+ - Copiando os Casos de teste para a pasta Resultados/Ana/registro
+ - Copiando os Includes/jogador.h Includes/registro.h Includes/servidor.h do professor para a pasta Resultados/Ana/registro
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Ana/registro
+ - Removendo o registro.o do professor da pasta Resultados/Ana/registro
+ - Copiando o Respostas/Ana/registro.c do aluno para a pasta Resultados/Ana/registro
+ - Pasta jogador:
+ - Copiando os Casos de teste para a pasta Resultados/Ana/jogador
+ - Copiando os Includes/jogador.h Includes/registro.h Includes/servidor.h do professor para a pasta Resultados/Ana/jogador
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Ana/jogador
+ - Removendo o jogador.o do professor da pasta Resultados/Ana/jogador
+ - Copiando o Respostas/Ana/jogador.c do aluno para a pasta Resultados/Ana/jogador
+ - Pasta servidor:
+ - Copiando os Casos de teste para a pasta Resultados/Ana/servidor
+ - Copiando os Includes/jogador.h Includes/registro.h Includes/servidor.h do professor para a pasta Resultados/Ana/servidor
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Ana/servidor
+ - Removendo o servidor.o do professor da pasta Resultados/Ana/servidor
+ - Copiando o Respostas/Ana/servidor.c do aluno para a pasta Resultados/Ana/servidor
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Ana/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Ana/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta registro ok!
+ - Arquivo de output gerado: Resultados/Ana/registro/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta jogador ok!
+ - Arquivo de output gerado: Resultados/Ana/jogador/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta servidor ok!
+ - Arquivo de output gerado: Resultados/Ana/servidor/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Ana/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Ana/completo/result_linking.txt
+ - Pasta registro:
+ - Gerando o binário prog linkando com o(s) arquivo(s) registro/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Ana/registro/result_linking.txt
+ - Pasta jogador:
+ - Gerando o binário prog linkando com o(s) arquivo(s) jogador/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Ana/jogador/result_linking.txt
+ - Pasta servidor:
+ - Gerando o binário prog linkando com o(s) arquivo(s) servidor/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Ana/servidor/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Ana/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 22, frees: 22, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Ana/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 42, frees: 42, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Ana/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 102, frees: 102, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/Ana/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 92, frees: 92, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/Ana/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 102, frees: 102, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 0.50) - 50.00 de 50 - 100.00% de 0.50: .50.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Ana/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 22, frees: 22, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Ana/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 42, frees: 42, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Ana/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 102, frees: 102, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/Ana/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 92, frees: 92, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/Ana/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 102, frees: 102, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.00) - 50.00 de 50 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta registro / Caso 1:
+ - Arquivo de output gerado: Resultados/Ana/registro/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 22, frees: 22, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta registro / Caso 2:
+ - Arquivo de output gerado: Resultados/Ana/registro/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 42, frees: 42, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta registro / Caso 3:
+ - Arquivo de output gerado: Resultados/Ana/registro/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 102, frees: 102, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta registro / Caso 4:
+ - Arquivo de output gerado: Resultados/Ana/registro/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 92, frees: 92, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta registro / Caso 5:
+ - Arquivo de output gerado: Resultados/Ana/registro/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 102, frees: 102, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta registro (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta jogador / Caso 1:
+ - Arquivo de output gerado: Resultados/Ana/jogador/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 22, frees: 22, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogador / Caso 2:
+ - Arquivo de output gerado: Resultados/Ana/jogador/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 42, frees: 42, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogador / Caso 3:
+ - Arquivo de output gerado: Resultados/Ana/jogador/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 102, frees: 102, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogador / Caso 4:
+ - Arquivo de output gerado: Resultados/Ana/jogador/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 92, frees: 92, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogador / Caso 5:
+ - Arquivo de output gerado: Resultados/Ana/jogador/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 102, frees: 102, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta jogador (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta servidor / Caso 1:
+ - Arquivo de output gerado: Resultados/Ana/servidor/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 22, frees: 22, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta servidor / Caso 2:
+ - Arquivo de output gerado: Resultados/Ana/servidor/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 42, frees: 42, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta servidor / Caso 3:
+ - Arquivo de output gerado: Resultados/Ana/servidor/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 102, frees: 102, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta servidor / Caso 4:
+ - Arquivo de output gerado: Resultados/Ana/servidor/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 92, frees: 92, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta servidor / Caso 5:
+ - Arquivo de output gerado: Resultados/Ana/servidor/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 102, frees: 102, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta servidor (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Ana
+ - Arquivos Esperados Corretos: 7 de 7
+ - Pastas Compiladas Corretamente: 5 de 5 
+ - Pastas Linkadas Corretamente: 5 de 5
+ - Teste main
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Ana para o teste main: .50
+ - Teste completo
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Ana para o teste completo: 2.00
+ - Teste registro
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Ana para o teste registro: 2.50
+ - Teste jogador
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Ana para o teste jogador: 2.50
+ - Teste servidor
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Ana para o teste servidor: 2.50
+ - Nota de Ana: 0+(2.50)+(2.50)+(2.50)+(.50)+(2.00)
+ - Nota de Ana: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+
