@@ -1,0 +1,4 @@
+produtos.c: In function ‘lerLista’:
+produtos.c:127:23: warning: comparison between pointer and integer
+  127 |     for (int i = 0; i < tamanho; i++){
+      |                       ^

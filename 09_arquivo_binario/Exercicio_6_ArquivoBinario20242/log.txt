@@ -1,0 +1,145 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Ana
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Ana:
+ - Diretório Resultados/Ana criado com sucesso!
+ - Diretório Resultados/Ana/produtos criado com sucesso!
+ - Diretório Resultados/Ana/completo criado com sucesso!
+ - Diretório Resultados/Ana/main criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Ana/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Ana/produtos.c' encontrado!
+ - Arquivo esperado 'Respostas/Ana/produtos.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta produtos:
+ - Copiando os Casos de teste para a pasta Resultados/Ana/produtos
+ - Copiando os Includes/produtos.h do professor para a pasta Resultados/Ana/produtos
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Ana/produtos
+ - Removendo o produtos.o do professor da pasta Resultados/Ana/produtos
+ - Copiando o Respostas/Ana/produtos.c do aluno para a pasta Resultados/Ana/produtos
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Ana/completo
+ - Copiando os Respostas/Ana/main.c do aluno para a pasta Resultados/Ana/completo
+ - Copiando os Respostas/Ana/produtos.c do aluno para a pasta Resultados/Ana/completo
+ - Copiando os Respostas/Ana/produtos.h do aluno para a pasta Resultados/Ana/completo
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Ana/main
+ - Copiando os Includes/produtos.h do professor para a pasta Resultados/Ana/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Ana/main
+ - Removendo o main.o do professor da pasta Resultados/Ana/main
+ - Copiando o Respostas/Ana/main.c do aluno para a pasta Resultados/Ana/main
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta produtos ok!
+ - Arquivo de output gerado: Resultados/Ana/produtos/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Ana/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Ana/main/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta produtos:
+ - Gerando o binário prog linkando com o(s) arquivo(s) produtos/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Ana/produtos/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Ana/completo/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Ana/main/result_linking.txt
+
+EXECUTANDO O PROGRAMA EM CADA CASO:
+ - Pasta produtos / Caso 1:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta produtos / Caso 2:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta produtos / Caso 3:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta produtos / Caso 4:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta produtos / Caso 5:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Nota para a pasta produtos (máximo 7.0) - 0 de 50.0 - 0% de 7.0: 0.
+ -----
+ - Pasta completo / Caso 1:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta completo / Caso 2:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta completo / Caso 3:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta completo / Caso 4:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta completo / Caso 5:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Nota para a pasta completo (máximo 0.5) - 0 de 50.0 - 0% de 0.5: 0.
+ -----
+ - Pasta main / Caso 1:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta main / Caso 2:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta main / Caso 3:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta main / Caso 4:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta main / Caso 5:
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Nota para a pasta main (máximo 2.5) - 0 de 50.0 - 0% de 2.5: 0.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Ana
+ - Arquivos Esperados Corretos: 3 de 3
+ - Pastas Compiladas Corretamente: 3 de 3 
+ - Pastas Linkadas Corretamente: 3 de 3
+ - Teste produtos
+ - Resultados corretos: 0 de 5
+ - Nota de Ana para o teste produtos: 0
+ - Teste completo
+ - Resultados corretos: 0 de 5
+ - Nota de Ana para o teste completo: 0
+ - Teste main
+ - Resultados corretos: 0 de 5
+ - Nota de Ana para o teste main: 0
+ - Nota de Ana: 0+(0)+(0)+(0)
+ - Nota de Ana: 0
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+
